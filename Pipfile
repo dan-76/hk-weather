@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+bottle = "*"
+requests = "*"
+beautifulsoup4 = "*"
+python-dateutil = "*"
+
+[dev-packages]
+pycodestyle = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.7"
