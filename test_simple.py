@@ -24,6 +24,8 @@ class checkerTests(unittest.TestCase):
             "td": "tests/data/LocalWeatherForecast_uc.xml",
             "9d": "tests/data/SeveralDaysWeatherForecast_uc.xml"
         }
+        
+        self.test_pages = {k: join_file_link(v) for k, v in self.test_page_file_link.items()}
 
     def test_search_result_or_empty(self):
         test_string = 'Air temperature is 100C degrees Celsius'
@@ -34,18 +36,18 @@ class checkerTests(unittest.TestCase):
         self.assertEqual(checker._search_result_or_empty(bad_pattern, test_string), '')
 
     def test_get_soup_from_url(self):
-        for link in self.test_page_file_link.values():
-            self.assertIsNotNone(checker._get_soup_from_url(join_file_link(link)).title)
+        for link in self.test_pages.values():
+            self.assertIsNotNone(checker._get_soup_from_url(link).title)
 
     def test_get_soup_for_cdata(self):
         self.assertIn('http://rss.weather.gov.hk/img/pic50.png', 
-            checker._get_soup_for_cdata(checker._get_soup_from_url(join_file_link(self.test_page_file_link["en"]))).find('img')['src'])
+            checker._get_soup_for_cdata(checker._get_soup_from_url(self.test_pages["en"])).find('img')['src'])
         self.assertIn(u'天 文 台 錄 得', 
-            checker._get_soup_for_cdata(checker._get_soup_from_url(join_file_link(self.test_page_file_link["uc"]))).get_text())
+            checker._get_soup_for_cdata(checker._get_soup_from_url(self.test_pages["uc"])).get_text())
         self.assertIn(u'天 氣 概 況', 
-            checker._get_soup_for_cdata(checker._get_soup_from_url(join_file_link(self.test_page_file_link["9d"]))).get_text())
+            checker._get_soup_for_cdata(checker._get_soup_from_url(self.test_pages["9d"])).get_text())
         self.assertIn(u'天氣預測', 
-            checker._get_soup_for_cdata(checker._get_soup_from_url(join_file_link(self.test_page_file_link["td"]))).get_text())
+            checker._get_soup_for_cdata(checker._get_soup_from_url(self.test_pages["td"])).get_text())
 
     def test_format_strip_all_whitespace(self):
         test_string = u'過 去 一 小 時 ， 京 士 柏 錄 得 的 平 均 紫 外 線 指 數 ： 0.0紫 外 線 強 度 ： 低'
