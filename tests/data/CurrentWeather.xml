@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet href="current.xsl" type="text/xsl" ?><rss version="2.0">
+  <channel>
+    <title>Current Weather</title>
+    <link>
+    http://www.weather.gov.hk/wxinfo/currwx/current.htm</link>
+    <description>Current Weather</description>
+    <language>en-us</language>
+    <copyright>The content available in this file, including but
+    not limited to all text, graphics, drawings, diagrams,
+    photographs and compilation of data or other materials are
+    protected by copyright. The Government of the Hong Kong Special
+    Administrative Region is the owner of all copyright works
+    contained in this website.</copyright>
+    <image>
+      <title>Current Weather</title>
+      <link>http://www.weather.gov.hk/wxinfo/currwx/current.htm</link>
+	  <url>http://rss.weather.gov.hk/img/HKOlogo.gif</url>
+      <width>144</width>
+      <height>28</height>
+    </image>
+    <item>
+       <author>hkowm@hko.gov.hk</author>
+	  <guid isPermaLink="false">
+      http://rss.weather.gov.hk/rss/CurrentWeather/20191117170200</guid>
+<pubDate>Sun, 17 Nov 2019 09:02:00 GMT</pubDate>      <title>Bulletin updated at 17:02 HKT 17/11/2019</title>
+      <category>R</category>
+      <link>
+      http://www.weather.gov.hk/wxinfo/currwx/current.htm</link>
+        <description>
+        <![CDATA[
+         <img src="http://rss.weather.gov.hk/img/pic50.png" style="vertical-align: middle;">        <p>At 
+        5 p.m. 
+               at the Hong Kong Observatory :<br/>
+        Air temperature : 25 degrees Celsius<br/>
+        Relative Humidity : 74 per cent<br/>
+        During the past hour
+        the mean UV Index recorded at King's Park : 0.4<br/>
+        Intensity of UV radiation : low<br/>        		 										    																									<br/><font color="red"><SPAN id='warning_message' >Please be reminded that:<br/>The Fire Danger Warning is Yellow and the fire risk is high.<br/></SPAN><br/>		</font><p></p>
+                The air temperatures at other places were:
+                <br/>
+                <font size="-1">
+    <table border="0" cellspacing="0" cellpadding="0">
+    <tr><td><font size="-1">Hong Kong Observatory</font></td><td width="100" align="right"><font size="-1">25 degrees ;</font></td></tr>
+    <tr><td><font size="-1">King's Park</font></td><td width="100" align="right"><font size="-1">25 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Wong Chuk Hang</font></td><td width="100" align="right"><font size="-1">25 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Ta Kwu Ling</font></td><td width="100" align="right"><font size="-1">26 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Lau Fau Shan</font></td><td width="100" align="right"><font size="-1">26 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Tai Po</font></td><td width="100" align="right"><font size="-1">25 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Sha Tin</font></td><td width="100" align="right"><font size="-1">27 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Tseung Kwan O</font></td><td width="100" align="right"><font size="-1">23 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Sai Kung</font></td><td width="100" align="right"><font size="-1">24 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Cheung Chau</font></td><td width="100" align="right"><font size="-1">24 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Chek Lap Kok</font></td><td width="100" align="right"><font size="-1">27 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Tsing Yi</font></td><td width="100" align="right"><font size="-1">25 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Shek Kong</font></td><td width="100" align="right"><font size="-1">26 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Tsuen Wan Ho Koon</font></td><td width="100" align="right"><font size="-1">25 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Tsuen Wan Shing Mun Valley</font></td><td width="100" align="right"><font size="-1">26 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Hong Kong Park</font></td><td width="100" align="right"><font size="-1">24 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Shau Kei Wan</font></td><td width="100" align="right"><font size="-1">23 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Kowloon City</font></td><td width="100" align="right"><font size="-1">26 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Happy Valley</font></td><td width="100" align="right"><font size="-1">25 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Wong Tai Sin</font></td><td width="100" align="right"><font size="-1">26 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Stanley</font></td><td width="100" align="right"><font size="-1">24 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Kwun Tong</font></td><td width="100" align="right"><font size="-1">25 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Sham Shui Po</font></td><td width="100" align="right"><font size="-1">26 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Kai Tak Runway Park</font></td><td width="100" align="right"><font size="-1">24 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Yuen Long Park</font></td><td width="100" align="right"><font size="-1">26 degrees ;</font></td></tr>
+    <tr><td><font size="-1">Tai Mei Tuk</font></td><td width="100" align="right"><font size="-1">24 degrees .</font></td></tr>
+    </table></font></p>
+Here is the information on Tropical Storm Kalmaegi at 4 p.m.:
+<br/>Location: 16.6 degrees north, 124.7 degrees east.<br/><br/>        ]]>
+        </description>
+    </item>
+  </channel>
+</rss>

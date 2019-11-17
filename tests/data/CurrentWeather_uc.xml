@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="currentc.xsl" type="text/xsl" ?><rss version="2.0">
+<channel>
+<title>本港地區天氣報告</title>
+<link>http://www.weather.gov.hk/wxinfo/currwx/currentc.htm</link>
+<description>本港地區天氣報告</description>
+<language>zh-tw</language>
+
+<copyright>本檔案的內容，包括但不限於所有文本、平面圖像、圖畫、圖片、照片以及數據或其他資料的匯編，均受版權保障。香港特別行政區政府是本檔案內所有版權作品的擁有人。</copyright>
+<image>
+
+    <title>本港地區天氣報告</title>
+    <link>http://www.weather.gov.hk/wxinfo/currwx/currentc.htm</link>
+	<url>http://rss.weather.gov.hk/img/HKOlogo.gif</url>
+    <width>144</width>
+	<height>28</height>
+</image>
+<item>
+	<author>hkowm@hko.gov.hk</author>
+    <guid isPermaLink="false">http://rss.weather.gov.hk/rss/CurrentWeatherBig5/20191117180200</guid>
+    <pubDate>Sun, 17 Nov 2019 10:02:00 GMT</pubDate>
+    <title>香港天文台於2019年11月17日18時02分發出之天氣報告</title>
+    <category>R</category>
+
+    <link>http://www.weather.gov.hk/wxinfo/currwx/currentc.htm</link>
+<description><![CDATA[
+						<p>
+				<img src="http://rss.weather.gov.hk/img/pic77.png" style="vertical-align: middle;"><br/><br/>	
+        下 午 6 時 				
+		天 文 台 錄 得：<br/>
+		氣 溫 ： 24 度<br/>
+		相 對 濕 度 ： 百 分 之 78<br/>
+		過 去 一 小 時  ， 		
+			京 士 柏 錄 得 的 平 均 紫 外 線 指 數 ： 0.0<br/>
+			紫 外 線 強 度 ： 低 <br/>
+
+
+
+
+
+
+
+						
+		<p></p>
+本 港 其 他 地 區 的 氣 溫 ：<br/>
+                <font size="-1">
+    <table border="0" cellspacing="0" cellpadding="0">
+
+<tr><td>天 文 台 </td><td width="100" align="right">24</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>京 士 柏 </td><td width="100" align="right">23</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>黃 竹 坑 </td><td width="100" align="right">23</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>打 鼓 嶺 </td><td width="100" align="right">24</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>流 浮 山 </td><td width="100" align="right">24</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>大 埔 </td><td width="100" align="right">24</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>沙 田 </td><td width="100" align="right">24</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>將 軍 澳 </td><td width="100" align="right">23</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>西 貢 </td><td width="100" align="right">23</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>長 洲 </td><td width="100" align="right">22</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>赤 &#40050;  角    </td><td width="100" align="right">25</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>青 衣 </td><td width="100" align="right">23</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>石 崗 </td><td width="100" align="right">25</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>荃 灣 可 觀 </td><td width="100" align="right">22</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>荃 灣 城 門 谷 </td><td width="100" align="right">24</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>香 港 公 園 </td><td width="100" align="right">23</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>筲 箕 灣 </td><td width="100" align="right">23</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>九 龍 城 </td><td width="100" align="right">24</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>跑 馬 地 </td><td width="100" align="right">24</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>黃 大 仙 </td><td width="100" align="right">24</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>赤 柱 </td><td width="100" align="right">23</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>觀 塘 </td><td width="100" align="right">23</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>深 水 埗 </td><td width="100" align="right">24</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>啟 德 跑 道 公 園 </td><td width="100" align="right">23</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>元 朗 公 園 </td><td width="100" align="right">24</SPAN><SPAN style="float:static; text-align:left;"> 度 ，</td></tr>
+<tr><td>大 美 督 </td><td width="100" align="right">23</SPAN><SPAN style="float:static; text-align:left;"> 度 。</td></tr>
+    </table></font><br/>
+以 下 是 有 關 熱 帶 風 暴 海 鷗 在 下 午 4 時 的 消 息 ： <br/>
+ 位 置 為 北 緯 16.6 度 ， 東 經 124.7 度 附 近 。<br/><br/>]]>
+        </description>
+</item></channel></rss>
