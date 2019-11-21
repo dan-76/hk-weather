@@ -3,10 +3,13 @@
 
 # Standard library imports
 import os
+import datetime
 import unittest 
+from unittest.mock import patch
 
 # Third-party imports
 import dateutil.parser
+from dateutil.tz import tzutc
 
 # Application-specific imports
 from hkweather import weatherchecker as checker
@@ -58,6 +61,11 @@ class checkerTests(unittest.TestCase):
         expected_string = u'\n氣溫: 100 度\n相對濕度: 百分之 75\n曝曬級數: low\n紫外線指數: 0.0\ntesting warning\ntesting prediction\ntesting days description\n本日預測: testing summary\n報告時間: 2019-11-17 18:02:00\n'
         self.assertEqual(checker._format_weather_msg(dateutil.parser.parse("Sun, 17 Nov 2019 10:02:00 GMT"),'100','75','0.0','low','testing warning','testing prediction','testing days description','testing summary'),
                             expected_string)
+    
+    def test_get_current_weather(self):
+        expected_dict = {'author': 'hkowm@hko.gov.hk', 'publication_date_text': 'Sun, 17 Nov 2019 09:02:00 GMT', 'publication_date': datetime.datetime(2019, 11, 17, 9, 2, tzinfo=tzutc()), 'weather_img_url': 'http://rss.weather.gov.hk/img/pic50.png', 'weather_img_number': '50', 'temperature': '25', 'relative_humidity': '74', 'uv_index': '0', 'uv_level': 'low', 'rainfall_exist': '', 'prediction': '', 'warning': '', 'days_description': '天氣概況：預料一道冷鋒在華中形成，並於明晚橫過華南沿岸。與其相關的強烈東北季候風會在未來兩三日為華南帶來清涼的天氣。而季候風將在本週中後期緩和，廣東沿岸氣溫逐漸回升。此外，熱帶氣旋海鷗會在未來兩三日移向呂宋一帶並橫過南海中部。', 'short_summary_msg': '大致天晴。早上最低氣溫約22度，日間乾燥，最高氣溫約28度。明晚顯著轉涼，氣溫下降至約19度。吹微風，明日轉吹和緩北風，稍後風勢逐漸增強。', 'long_summary_msg': '\n氣溫: 25 度\n相對濕度: 百分之 74\n曝曬級數: low\n紫外線指數: 0\n天氣概況：預料一道冷鋒在華中形成，並於明晚橫過華南沿岸。與其相關的強烈東北季候風會在未來兩三日為華南帶來清涼的天氣。而季候風將在本週中後期緩和，廣東沿岸氣溫逐漸回升。此外，熱帶氣旋海鷗會在未來兩三日移向呂宋一帶並橫過南海中部。\n本日預測: 大致天晴。早上最低氣溫約22度，日間乾燥，最高氣溫約28度。明晚顯著轉涼，氣溫下降至約19度。吹微風，明日轉吹和緩北風，稍後風勢逐漸增強。\n報告時間: 2019-11-17 17:02:00\n'}
+        with patch.dict(checker.current_weather_url, self.test_pages, clear=True):
+            self.assertEqual(checker.get_current_weather(), expected_dict)
 
 if __name__ == "__main__": 
     unittest.main()
